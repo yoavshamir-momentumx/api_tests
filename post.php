@@ -2,7 +2,7 @@
 
 #TEST FILE
 
-$url = "http://localhost/api/get_report?pubid=1&start_date=2020-01-01&end_date=2020-01-01&group_by=date";
+$url = "/api/get_report?pubid=1&start_date=2020-01-01&end_date=2020-01-01&group_by=date";
 
 
 generic_get_json_data_by_url($url); 
